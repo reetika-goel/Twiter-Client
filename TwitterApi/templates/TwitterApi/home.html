@@ -1,0 +1,36 @@
+<!--
+@Authors: Reetika Goel, Pragya Gautam
+@Purpose: This page contains HTML structure for home page
+-->
+{% extends 'TwitterApi/base.html' %}
+{% block content %}
+  <html>
+  <head>
+  </head>
+  <body>
+  <div class="w3-container" style="margin-top:30px" id="Home">
+  <h1 class="w3-xxlarge w3-text-indigo"><b></b></h1>
+
+  <div class="w3-large w3-light-grey w3-container w3-padding-10 w3-bar-block">
+      <div class="w3-half">
+     <img src="https://marketingland.com/wp-content/ml-loads/2012/08/twitter-api-developers-featured.jpg" style="width:100%" alt="Twitter APIs">
+      </div>
+      <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-padding-16">Amazon EC2</li>
+          <li class="w3-padding-16">Docker Container</li>
+          <li class="w3-padding-16">Django Framework/Python</li>
+          <li class="w3-padding-16">HTML/CSS</li>
+      </ul>
+      <p>
+          This project is work of "<b><u>THE SEEKERS</u></b>" Team that includes Vidhi, Sithara, Pragya and Reetika. <br><br>
+          The purpose of this project is to write a client application to implement 8 Twitter API’s.
+          It uses Docker Container framework onto which various components and packages can be deployed.
+          The application is built around a developer's Twitter account. The developer initially requests for the authentication key
+          and token from the Twitter account to work with the APIs. Using the same, the developer can send request to any of the
+          Twitter APIs and receive a response. An HTML page is designed as a part of user interface with CSS styling.
+          When the client clicks on any of these API’s, it redirects to a new page which displays the response to the API Request.
+     </p>
+   </div>
+  </body>
+</html>
+{% endblock %}
